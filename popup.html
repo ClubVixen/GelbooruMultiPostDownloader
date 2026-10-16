@@ -27,8 +27,23 @@
                 </label>
                 <p><b>Disable NNN Block :/</b></p>
             </div>
+
+            <div style="padding: 5px; text-align: center;">
+    <p style="margin: 0 0 5px 0;">API Credentials</p>
+    <input type="password" id="api_creds_input" placeholder="Paste full API string here" style="width: 90%; margin-bottom: 5px;">
+    <button id="save_creds_btn" style="width: 95%;">Save Credentials</button>
+</div>
+        <hr>
+
+            <div id="progressbox" style="display: none;">
+                <h2 id="progresstext"></h2>
+                <progress id="progressbar" value="0" max="1" style="width: 90%;"></progress>
+                <p id="progresscurrent" style="word-break: break-all;"></p>
+                <button type="button" id="canceldl"><b>Cancel downloads</b></button>
+                <p id="progressfailed" style="color: red; word-break: break-all;"></p>
+            </div>
             <h2 id="infobox"></h2>
-            <div id="creditsdiv"><p id="creditspar"><b>Made with 💕 by <a href="https://github.com/Thetechacker" target="_blank">Thetechacker</a> & <a href="https://github.com/luainjector" target="_blank">lua injector</a> ;3</b></p></div>
+            <div id="creditsdiv"><p id="creditspar"><b>Edited By: <a href="https://github.com/ClubVixen" target="_blank">ClubVixen</a> & OG by <a href="https://github.com/Thetechacker" target="_blank">Thetechacker</a> & <a href="https://github.com/luainjector" target="_blank">lua injector</a> ;3</b></p></div>
         </center>
     </body>
     <script src="main.js"></script>

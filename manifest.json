@@ -15,11 +15,12 @@
         "tabs",
         "sessions",
         "downloads",
-        "storage"
+        "storage",
+        "declarativeNetRequest"
     ],
     "host_permissions": [
-        "https://gelbooru.com/**/*",
-        "https://img3.gelbooru.com/**/*"
+        "https://gelbooru.com/*",
+        "https://*.gelbooru.com/*"
     ],
     "action": {
         "default_popup": "popup.html"
